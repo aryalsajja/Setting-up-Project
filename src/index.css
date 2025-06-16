@@ -1,0 +1,136 @@
+
+
+ *{
+  box-sizing : border-box;
+}
+
+body {
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+background: #ffffff;
+color: rgb(7, 7, 7);
+} 
+
+/* h1 {
+  margin-top: 30px;
+} */
+
+Header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #F55A5A;
+  color: rgb(251, 249, 249);
+}
+.footer{
+  background: #adaaaa;
+  padding: 15px 10px;
+} 
+
+.Entry{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 20px 10px;
+  margin-bottom: 36px; 
+  gap: 20px;
+
+}
+.Entry>nav{
+  font-family: inter;
+  font-weight: 700; 
+}
+ .image-container{
+  width : 250px;
+  height : 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  flex-shrink: 0;
+ } 
+ .mainimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+ }
+ .text-container{
+  padding: 10px 20px;
+  flex: 1;
+ } 
+
+
+
+
+/* 
+.contacts {
+  
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.contact-card {
+    display: flex;
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    max-width: 225px;
+    width:100%;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+} */
+
+/* .contact-card > img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+}
+
+.info-group > img {
+    height: 11px;
+    margin-right: 8px;
+}
+
+.info-group > p {
+    margin-block: 3px;
+    font-size: 12px;
+    color: #2B283A;
+} */
+ /* * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: whitesmoke;
+}
+
+.joke-container {
+  background-color: rgb(148, 151, 183);
+}
+
+.setup {
+  font-weight: bold;
+  font-size:x-large;
+}
+ */
